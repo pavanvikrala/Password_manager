@@ -24,6 +24,7 @@ page_config = {"page_title": 'Password Generator', "page_icon": img_url}
 st.set_page_config(**page_config)
 
 st.title("Welcome to the Password Generator App")
+st.subheader("Inspired by Coding Horror blog 'Password Rules Are Bullshit'😉")
 
 st.image("https://assets.f-secure.com/i/heroes/pw-generator-hero.png")
 rand_password = generate_password()
